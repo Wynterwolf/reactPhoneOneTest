@@ -5,7 +5,7 @@ export default function App() {
   const [outputText, setOutputText] = useState ('Open up App.js to start working on your app!');
   return (
     <View style={styles.container}>
-<Text> {outputText} </Text>
+      <Text> {outputText} </Text>
       <Button title="Change Me!" onPress={() => setOutputText('The Text is Changes to This!')}/>
     </View>
   );
